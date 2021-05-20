@@ -3,26 +3,33 @@
 int main()
 {
 
-int a=33,b=77;
-int sum;
-sum=a+b;
-printf("sum =%d\n",sum);
-int subtraction;
-subtraction=a-b;
-printf("subtraction =%d\n",subtraction);
+//Summetion
+    int a=33,b=77;
+    int sum;
+    sum=a+b;
+    printf("sum =%d\n",sum);
 
-a=33,b=77;
-int multiplication;
-multiplication=a*b;
-printf("product =%d\n",multiplication);
-     a=16,b=4;
+//Substraction
+    int subtraction;
+    subtraction=a-b;
+    printf("subtraction =%d\n",subtraction);
+
+//Multiplication
+    a=33,b=77;
+    int multiplication;
+    multiplication=a*b;
+    printf("product =%d\n",multiplication);
+
+//Division
+    a=16,b=4;
     int division;
     division=a/b;
     printf("product=%d",division);
- a=13,b=2;
-int modulus;
-modulus =a%b;
-printf("\nModulas = %d",modulus);
 
-return 0;
+//Modulas
+    a=13,b=2;
+    float modulus;
+    modulus =(float)a/b; //Typecasting
+    printf("\nModulas = %0.2f",modulus); //For two space after 0
+    return 0;
 }

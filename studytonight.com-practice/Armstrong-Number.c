@@ -5,22 +5,22 @@ int main()
 {
     int t,i,n,sum,a;
 
-    printf("The armstrong number between 1 to 500 are :  \n");
+    printf("\t\tThe armstrong number between 1 to 500 are :   \n\n");
 
 
-    for(i=0;i<=500;i++)
+    for(i=0; i<=500; i++)
     {
-       t=i;
-       sum=0;
-       while (t!=0)
-    {
-        a=t%10;
-        sum+=a*a*a;
-        t=t/10;
+        t=i;
+        sum=0;
+        while (t!=0)
+        {
+            a=t%10;
+            sum+=a*a*a;
+            t=t/10;
 
-    }
-    if(sum==i)
-    printf("%d\n",i);
+        }
+        if(sum==i)
+            printf("%d\n\n",i);
     }
 
     return 0;
